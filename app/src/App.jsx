@@ -1,11 +1,17 @@
 // App.js
 import React from 'react';
-import Greeting from './components/Greeting';
+// import Form from './components/Form';
+// import Toggle from './components/Toggle';
+// import Count from './components/Count';
+import Todo from './components/Todo';
 
 const App = () => {
   return (
     <div>
-      <Greeting name="John" />
+      <Todo />
+      {/* <Toggle/> */}
+     {/* <Form /> */}
+      {/* <Count /> */}
     </div>
   );
 };
