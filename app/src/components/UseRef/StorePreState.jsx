@@ -11,7 +11,7 @@ const StorePreState = () => {
   };
 
   return (
-    <div className='flex justify-center h-screen '>
+    <div className='flex justify-center h-screen p-32 '>
     <div className="h-96 w-96 flex flex-col items-center justify-center shadow-2xl  bg-gray-300">
       <h1 className="text-2xl font-bold mb-6">Counter with Previous Count</h1>
       <div className="mb-4">
