@@ -1,3 +1,28 @@
+// import React, { createContext, useContext, useState } from 'react'
+// import ChildA from './components/usecontext/ChildA'
+
+// const UserContext=createContext();
+// const App = () => {
+//   const[User,SetUser] = useState({name:"Gill"})
+
+//   return (
+//     <>
+//     <UserContext.Provider value={User}>
+//       <ChildA/>
+    
+//     </UserContext.Provider>
+      
+//     </>
+//   )
+// }
+
+// export default App
+// export {UserContext}
+
+
+
+
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
